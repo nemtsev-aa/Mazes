@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66cab6cee46a7845ad606576ca6d514, type: 3}
+  m_Name: LevelCompanents
+  m_EditorClassIdentifier: 
+  <DoorPrefab>k__BackingField: {fileID: 1379569836, guid: 9a341330c7111694083b77feaaf47aa0,
+    type: 3}
+  <KeyPrefab>k__BackingField: {fileID: 4551181446054229391, guid: f3e6c7c043b6a9144a3bcea9636d3b6b,
+    type: 3}
+  <ChestPrefab>k__BackingField: {fileID: 1381571091205746459, guid: 2c93977bb70002146955b71f8b701e40,
+    type: 3}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0e5c08ad401f24fab0b8b7ba546975, type: 3}
+  m_Name: MiniGamePrefabs
+  m_EditorClassIdentifier: 
+  <Configs>k__BackingField:
+  - <Type>k__BackingField: 0
+    <Game>k__BackingField: {fileID: 6221317879696385943, guid: 7c088034446c3304384d0200b2d8aade,
+      type: 3}
