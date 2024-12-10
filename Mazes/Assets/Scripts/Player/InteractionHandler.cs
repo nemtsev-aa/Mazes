@@ -13,7 +13,7 @@ public class InteractionHandler : MonoBehaviour, IDisposable {
     private Player _player;
     private PlayerMoveController _moveController;
     private PlayerView _view;
-    private MiniGameMediator _miniGameMediator;
+    private MiniGameSpawner _miniGameMediator;
 
     private Chest _currentChest;
     private Door _door;
@@ -23,7 +23,7 @@ public class InteractionHandler : MonoBehaviour, IDisposable {
     private GameplayElement _currentElement;
     private Coins _currentCoins;
 
-    public void Init(Player player, MiniGameMediator miniGameMediator) {
+    public void Init(Player player, MiniGameSpawner miniGameMediator) {
         _player = player;
         _moveController = player.MoveController;
         _view = player.View;

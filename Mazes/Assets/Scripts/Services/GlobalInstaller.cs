@@ -11,6 +11,8 @@ public class GlobalInstaller : MonoInstaller {
     [SerializeField] private Cell _cellPrefab;
     [SerializeField] private MiniGamePrefabs _gamePrefabs;
     [SerializeField] private MiniGameConfigs _gameConfigs;
+    [SerializeField] private MiniGame3_Config _game3Config;
+    [SerializeField] private MiniGame4_Config _game4Config;
 
     private Logger _logger;
     
@@ -33,7 +35,10 @@ public class GlobalInstaller : MonoInstaller {
         BindLevelCompanents();
         BindMiniGamePrefabs();
         BindMiniGameConfigs();
+        BindMiniGame3Config();
+        BindMiniGame4Config();
     }
+
 
     private void BindChestConfigs() {
         if (_chestConfigs != null) {
@@ -80,6 +85,24 @@ public class GlobalInstaller : MonoInstaller {
         _logger.Log($"MiniGameConfigs not found");
     }
 
+    private void BindMiniGame3Config() {
+        if (_game3Config != null) {
+            Container.BindInstance(_game3Config).AsSingle();
+            return;
+        }
+
+        _logger.Log($"MiniGame3Config not found");
+    }
+
+    private void BindMiniGame4Config() {
+        if (_game4Config != null) {
+            Container.BindInstance(_game4Config).AsSingle();
+            return;
+        }
+
+        _logger.Log($"MiniGame4Config not found");
+    }
+
     #endregion
 
     private void BindServices() {
@@ -107,6 +130,9 @@ public class GlobalInstaller : MonoInstaller {
         Container.Bind<Cell>().FromInstance(_cellPrefab).AsSingle(); 
         Container.Bind<CellFactory>().AsSingle();
         Container.Bind<MiniGamesFactory>().AsSingle();
+        Container.Bind<MiniGame3_BulletFactory>().AsSingle();
+        Container.Bind<MainaGame4_TargetFactory>().AsSingle();
+
     }
 
     private void BindInput() {

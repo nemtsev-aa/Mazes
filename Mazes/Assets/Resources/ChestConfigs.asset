@@ -29,8 +29,8 @@ MonoBehaviour:
       <Prefab>k__BackingField: {fileID: 3881777135139853290, guid: 1db47c5ef25154fb1806822c25335042,
         type: 3}
     <GameParameters>k__BackingField:
-      Type: 0
-      DifficultyMode: 1
+      Type: 2
+      DifficultyMode: 2
   - <Prefab>k__BackingField: {fileID: 1381571091205746459, guid: 2c93977bb70002146955b71f8b701e40,
       type: 3}
     <ContentConfig>k__BackingField:
@@ -38,5 +38,5 @@ MonoBehaviour:
       <Prefab>k__BackingField: {fileID: 6542056721371420231, guid: 0752829c2e3ba4cb78049ff40067a24f,
         type: 3}
     <GameParameters>k__BackingField:
-      Type: 0
+      Type: 1
       DifficultyMode: 2

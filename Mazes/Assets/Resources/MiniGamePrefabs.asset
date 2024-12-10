@@ -16,3 +16,9 @@ MonoBehaviour:
   - <Type>k__BackingField: 0
     <Game>k__BackingField: {fileID: 6221317879696385943, guid: 7c088034446c3304384d0200b2d8aade,
       type: 3}
+  - <Type>k__BackingField: 1
+    <Game>k__BackingField: {fileID: 3192398423878860557, guid: 3c1fa349305f160419059704254219b3,
+      type: 3}
+  - <Type>k__BackingField: 2
+    <Game>k__BackingField: {fileID: 2654587039388533980, guid: e44fe7fd79098234b951042ab0485278,
+      type: 3}

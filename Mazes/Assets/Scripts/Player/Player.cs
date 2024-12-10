@@ -17,12 +17,12 @@ public class Player : MonoBehaviour, IDisposable {
     public bool HasKey { get; private set; } = false;
     public HintRenderer HintRenderer { get; private set; }
 
-    private MiniGameMediator _miniGameMediator;
+    private MiniGameSpawner _miniGameMediator;
 
     public void Init(MoveInputHandler inputHandler, HintRenderer hintRenderer, MiniGamesFactory miniGamesFactory) {
         HintRenderer = hintRenderer;
         
-        _miniGameMediator = new MiniGameMediator(miniGamesFactory);
+        _miniGameMediator = new MiniGameSpawner(miniGamesFactory);
         _miniGameMediator.Init(this);
 
         _interactionHandler.Init(this, _miniGameMediator);

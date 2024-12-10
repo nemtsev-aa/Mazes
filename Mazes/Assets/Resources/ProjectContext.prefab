@@ -81,3 +81,5 @@ MonoBehaviour:
     type: 3}
   _gamePrefabs: {fileID: 11400000, guid: fd68fb69b53fd344caef1d48de7a4cec, type: 2}
   _gameConfigs: {fileID: 11400000, guid: face84cb2a5a1b247b19adccff6ed776, type: 2}
+  _game3Config: {fileID: 11400000, guid: 33e94a65e2d816d4488c7beeeafbd677, type: 2}
+  _game4Config: {fileID: 11400000, guid: ced40f201b5db594594f118e79c8be21, type: 2}

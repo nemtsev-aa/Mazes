@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Configs>k__BackingField:
   - <Type>k__BackingField: 0
-    <DifficultyMode>k__BackingField: 0
-  - <Type>k__BackingField: 0
     <DifficultyMode>k__BackingField: 1
   - <Type>k__BackingField: 0
     <DifficultyMode>k__BackingField: 2
-  - <Type>k__BackingField: 1
-    <DifficultyMode>k__BackingField: 0
+  - <Type>k__BackingField: 0
+    <DifficultyMode>k__BackingField: 3
   - <Type>k__BackingField: 1
     <DifficultyMode>k__BackingField: 1
   - <Type>k__BackingField: 1
     <DifficultyMode>k__BackingField: 2
-  - <Type>k__BackingField: 2
-    <DifficultyMode>k__BackingField: 0
+  - <Type>k__BackingField: 1
+    <DifficultyMode>k__BackingField: 3
   - <Type>k__BackingField: 2
     <DifficultyMode>k__BackingField: 1
   - <Type>k__BackingField: 2
     <DifficultyMode>k__BackingField: 2
+  - <Type>k__BackingField: 2
+    <DifficultyMode>k__BackingField: 3
